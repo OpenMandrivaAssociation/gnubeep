@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Kernel and hardware
 Url: http://www.nettwerked.co.uk/code/gnubeep/index.html
-BuildRoot: %{_tmppath}/%{name}-buildroot
 ExclusiveArch: x86_64 %{ix86}
 
 %description
