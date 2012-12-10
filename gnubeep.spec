@@ -48,3 +48,59 @@ rm -rf $RPM_BUILD_ROOT
 %_bindir/gnubeep
 %_mandir/man1/%name.1*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.4-8mdv2011.0
++ Revision: 619197
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.4-7mdv2010.0
++ Revision: 429265
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 1.4-6mdv2009.0
++ Revision: 246482
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.4-4mdv2008.1
++ Revision: 136454
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Aug 06 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/06/06 21:04:59 (53667)
+- rebuild
+
+* Sun Aug 06 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/06/06 21:01:05 (53666)
+Import gnubeep
+
+* Sun Apr 30 2006 Emmanuel Blindauer <blindauer@mandriva.org> 1.4-3mdk
+- fix ExclusiveArch
+
+* Fri May 13 2005 Olivier Thauvin <nanardon@mandriva.org> 1.4-2mdk
+- birthday rebuild
+
+* Thu Apr 15 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 1.4-1mdk
+- 1.4
+
+* Fri Apr 09 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 1.3-1mdk
+- 1.3
+
+* Tue Mar 30 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 1.2-1mdk
+- 1.2
+
+* Sat Jan 24 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 0.8-1mdk
+- 0.8
+
+* Wed Jan 07 2004 Olivier Thauvin <nanardon@klama.mandrake.org> 0.6patch-1mdk
+- 0.6
+- remove patch1, merge upstream
+
+* Tue Jan 06 2004 Olivier Thauvin <thauvin@aerov.jussieu.fr> 0.5-1mdk
+- 1st mdk spec
+
