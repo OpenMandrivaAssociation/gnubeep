@@ -1,6 +1,6 @@
 %define name gnubeep
 %define version 1.4
-%define release %mkrel 8
+%define release 9
 
 Summary: Produce sound trough the speaker
 Name: %{name}
